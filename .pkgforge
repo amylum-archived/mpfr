@@ -7,11 +7,19 @@ source(
   checksum: 'e650f8723bfc6eca4f222c021db3d5d4cebe2e21c82498329bb9e6815b99c88c'
 )
 
+deps(
+  gmp: {
+    version: '6.1.2-1',
+    checksum: '12515de758fa11b2b3d87b347d0593fc8bde37b32a6c609cbddd09473e180b08'
+  }
+)
+
 configure_flags(
   prefix: '/usr',
   'enable-thread-safe': nil
 )
 
+cflags
 harden
 
 build do
