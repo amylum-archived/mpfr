@@ -1,4 +1,4 @@
-name 'zlib'
+name 'mpfr'
 org 'amylum'
 
 license 'COPYING'
